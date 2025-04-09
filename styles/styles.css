@@ -1,0 +1,533 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+body h1,h2{ 
+    font-family: 'Bebas Neue';
+    font-size: 5vh;
+}
+body p{
+    font-size: 2vh;
+    font-family:'Open Sans';
+text-align:justify ;
+align-items: center;
+align-content: center;}
+button{
+     font-family: 'Bebas Neue'
+}
+.banner{
+    display: flex;
+    background-color:rgb(245, 203, 0) ;
+    justify-content: space-between;
+    align-items: start;
+    align-items: center;
+}
+.banner img{
+    align-items: end;
+}
+
+button{
+background-color: transparent;
+border: none;
+
+}
+
+.howHappy{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 2vh;
+
+}
+.howHappy img{
+    width: 50vh;
+
+}
+.btn-yellow{
+    background-color: rgb(245, 203, 0);
+    border: none;
+    font-weight: bold;
+}
+
+.number1 {
+  padding: 15vh;
+    position: relative; 
+}
+
+.number {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    position: absolute; 
+    justify-content: space-between;
+    margin-top: 15vh; 
+    height: auto;
+    width: auto;
+    padding: 1vh;
+    gap: 5vh;
+
+   
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.number h1 {
+    color: rgb(245, 203, 0);
+    font-size: 4vh;
+}
+
+.number img {
+    width: 20vh;
+}
+.weyellow{
+    background-color: rgb(245, 203, 0);
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+    height: 100vh;
+    text-align: center;
+    text-align: justify;
+    padding-right: 10vh;
+    padding-left: 10vh;
+}
+
+.weyellow img{
+    margin-top: 30vh;
+    width: 80vh;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.happiness{
+    background-color: white;
+    padding: 10vh 10vh;
+
+}
+.happiness1{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    text-align:start;
+    align-items: center;
+    gap: 5vh;
+}
+
+.happiness1 h1{
+    color: rgb(245, 203, 0);
+    font-size: 3vh;
+}
+
+
+.happ{
+    height: 40vh;
+}
+
+
+.about{
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   text-align: center;
+    font-size: 3vh;
+    align-content: center;
+    gap: 2vh;
+    padding: 5vh;
+   
+}
+.about p{
+    text-align: center;
+}
+
+
+.about h2{
+    color: rgb(245, 203, 0);
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    gap: 5vh;
+   height: 70vh;
+}
+
+
+.team img{
+  height: 40vh;
+}
+
+.trymethod{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    font-size: 2vh;
+    padding:10vh;
+    gap: 5vh;
+    height: 70vh;
+}
+.trymethod img{
+    height: 70vh;
+}
+
+.datos{
+    display: flex;
+    margin-top: 10vh;
+    padding-left: 10vh;
+    gap: 5vh;
+    align-items: center;
+}
+.datos h1{
+    color: rgb(245, 203, 0);
+}
+
+.fondoblack{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    gap: 2vh;
+   padding: 1vh;
+    
+}
+.fondoblack p{
+    text-align: justify;
+    
+}
+.camp{
+    display: flex;
+     gap: 2vh;}
+     .campo1{
+        background-color: transparent;
+    border-color: white;
+     }
+.campo{
+    background-color: transparent;
+    border-color: white;
+    width: 38vh;
+    
+}
+.Message{
+    background-color: transparent;
+    border-color: white;
+    width: 38vh;
+    height: 100px;
+}
+
+.Contact{
+    background-color: rgb(245, 203, 0);
+    margin-top: 10vh;
+    text-align: center;
+    align-items: center;
+    font-size: 2vh;
+    height: 90vh;
+   align-content: center;
+}
+.Contact p{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    text-align: start;
+    padding: 5vh 10vh;
+    gap: 5vh; 
+}
+footer p{
+    font-size: 1vh;
+    color: rgb(245, 203, 0);
+}
+
+.Cookies{
+    display: flex;
+    gap: 5vh;
+}
+.line{
+border-top: 1px solid rgb(196, 196, 197); 
+margin-top: 4h;
+width: 90%;
+align-self: center;
+}
+@media (min-width: 352px) and (max-width: 480px) {
+   
+   body h1,h2{ 
+    font-size: 3vh;
+}
+body p{
+    font-size: 1vh;}
+
+.howHappy img {
+width: 20vh;   
+       
+    }
+    .number1 {
+        padding: 15vh;
+    }
+    
+    .number {
+        
+        margin-top: 8vh; 
+        gap: 1vh;
+    
+        
+    }
+    .number h1{
+        font-size: 2vh;
+    }
+    .number p {
+        font-size: 1%;
+    }
+    
+    .number img {
+        width: 13vh;
+    }
+    .weyellow {
+         gap: 1vh; 
+        height: 50vh;
+      padding-right: 0%; 
+      padding-left: 0%; 
+    }
+    .weyellow img{
+        width: 20vh;
+        margin-top: 10vh;
+    }
+    .weyellow h1{
+        font-size: 3vh;
+    }
+    .happiness{
+        padding: 0%;
+    }
+    
+    .happiness1 img{
+        height: 15vh;
+    }
+    .about img{
+        width: 20vh;
+    }
+    .team{
+        height: auto;
+        padding: 1%;
+        gap: 1vh;
+    }
+    .team img{
+        height: 15vh;
+    }
+    .trymethod{
+        padding: 1%;
+        height: auto;
+    }
+    .trymethod img{
+        height: 15vh;
+    }
+    .datos{
+        padding: 1%;
+        padding-left: 0%; 
+    gap: 1vh;
+    }
+    .camp{
+       flex-wrap: wrap;
+         gap: 2vh;}
+         
+    .campo{
+        width: 20vh;   
+    }
+    .Message{
+        width: 20vh; 
+    }
+    .Contact{
+        height: 30vh;
+    }
+    .Contact img{
+        width: 30vh;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+   
+    body h1,h2{ 
+     font-size: 3vh;
+ }
+ body p{
+     font-size: 1vh;}
+ 
+ .howHappy img {
+ width: 20vh;   
+        
+     }
+     .number1 {
+         padding: 15vh;
+     }
+     
+     .number {
+         
+         margin-top: 15vh; 
+         gap: 1vh;
+     
+         
+     }
+     .number h1{
+         font-size: 2vh;
+     }
+     .number p {
+         font-size: 1vh;
+     }
+     
+     .number img {
+         width: 13vh;
+     }
+     .weyellow {
+          gap: 1vh; 
+         height: 50vh;
+       padding-right: 0%; 
+       padding-left: 0%; 
+     }
+     .weyellow img{
+         width: 20vh;
+         margin-top: 15vh;
+     }
+     .weyellow h1{
+         font-size: 3vh;
+     }
+     .happiness{
+         padding: 3%;
+     }
+     
+     .happiness1 img{
+         height: 15vh;
+     }
+     .about img{
+         width: 20vh;
+     }
+     .team{
+        height: auto;
+        padding: 2%;
+     }
+     .team img{
+         height: 15vh;
+     }
+     .trymethod{
+        height: auto;
+     }
+     .trymethod img{
+         height: 15vh;
+     }
+     .datos{
+        padding: 3%;
+         padding-left: 0%; 
+     gap: 1vh;
+     }
+     .camp{
+        flex-wrap: wrap;
+          gap: 2vh;}
+          
+     .campo{
+         width: 20vh;   
+     }
+     .Message{
+         width: 20vh; 
+     }
+     .Contact{
+         height: 30vh;
+     }
+     .Contact img{
+         width: 30vh;
+     }
+ }
+ 
+ @media (min-width: 769px) and (max-width: 920px) {
+   
+ 
+ body p{
+     font-size: 1vh;}
+
+ .howHappy img {
+ width: 40vh;   
+        
+     }
+     
+     .weyellow {
+        padding: 10vh;
+         height: 50vh;
+       
+     }
+     .weyellow img{
+         width: 40vh;
+         margin-top: 10vh;
+     }
+    
+     .happiness1{
+        gap: 2vh;
+     }
+     
+     .about img{
+         width: 40vh;
+     }
+     .team img{
+        padding: 2vh;
+        width: 40vh;
+     }
+     .trymethod img{
+        width: 40vh;
+     }
+    
+    
+     .Contact{
+        height: auto;
+     }
+     .Contact img{
+         width: 80vh;
+     }
+ }
+ 
+
+ @media (min-width: 921px) and (max-width: 1279px) {
+   
+ 
+    body p{
+        font-size: 2vh;}
+
+        .number {
+            
+            margin-top: 15vh; 
+            gap: 1vh;
+        
+            
+        }
+        .number h1{
+            font-size: 2vh;
+        }
+        .number p {
+            font-size: 1vh;
+        }
+        
+        .weyellow img{
+            width: 50vh;
+            margin-top: 15vh;
+        }
+       
+        .happiness1{
+           gap: 2vh;
+        }
+        
+        .about img{
+            width: 40vh;
+        }
+        .team img{
+           padding: 2vh;
+           width: 40vh;
+        }
+       
+        .datos{
+            padding-left: 0%; 
+        gap: 1vh;
+        }
+        .Contact{
+           align-content: center;
+        }
+        .Contact img{
+            width: 80vh;
+        }
+    }
+
