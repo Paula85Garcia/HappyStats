@@ -231,22 +231,26 @@ footer{
     background-color: black;
     color: white;
     font-size: 2vh;
-    text-align: start;
-    padding: 5vh 10vh;
-    gap: 5vh; 
+    padding: 5vh;
 }
+
 footer p{
     font-size: 1vh;
     color: rgb(245, 203, 0);
+
 }
 
 .Cookies{
+display: flex;
+padding-right: 90vh;}
+.Copyright{
+    margin-top: 2vh;
     display: flex;
-    gap: 5vh;
+    
 }
 .line{
 border-top: 1px solid rgb(196, 196, 197); 
-margin-top: 4h;
+margin-top: 4vh;
 width: 90%;
 align-self: center;
 }
@@ -435,6 +439,7 @@ width: 20vh;
          width: 30vh;
      }
  }
+
  
  @media (min-width: 769px) and (max-width: 920px) {
    
